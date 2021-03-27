@@ -30,25 +30,14 @@ color: white;
 
 
 
-@media(max-width: 780px){
-    .flex_skills{
-        display: flex;
-        justify-content: space-evenly;
-        padding-top:   30px;
-        padding-bottom: 100px;
-        width: auto;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        
-    }
 
-}
 .flex_skills{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding: 0 30px;
-    padding-bottom: 50px;
+    
     width: 100%;
     height: auto;
     
@@ -57,13 +46,13 @@ color: white;
 .skills{
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 10px;
+    padding: 20px 10px;
     justify-content: space-evenly;
     
 }
 
 .skills div{
-    padding: 0 15px;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -71,27 +60,7 @@ color: white;
     color: crimson;
 }
 
-.bio{
-    padding: 10px 0;
-    width:auto;
-    height: auto;
-    display: flex;
-    background-color: #3c6e71 ;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 0 30px;
-    border-radius: 1em;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding: 10px 10px;
-    text-align: center;
-    
-}
 
-.bio h4{
-text-align: center;
-width: 100%;
-}
 
 
  .title {
@@ -103,12 +72,23 @@ width: 100%;
 
 .profile_pic{
 padding-bottom: 30px ;
+color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.profile_pic div{
+    height: 70px;
+margin-right: 200px;
+margin-bottom: 0;
 }
 
 .profile_pic  img{
 
 border-radius: 50%;
-width: 250px;
+width: 150px;
 height: auto;
 }
 
@@ -243,7 +223,7 @@ width: 100%;
 text-decoration: none;
 font-family:'Open Sans Condensed', sans-serif;
 font-weight: 550;
-font-size: 13pt;
+font-size: 12pt;
 }
 
 .workExp h3{
@@ -260,11 +240,6 @@ margin: 25px;
 
 
 
-.videos{
-
-    
-
-}
 
 iframe{
     width: 300px;
@@ -309,39 +284,46 @@ below this is for unprofessional.html
     color: black;
 }
 
-.flex__container__heading__unprofessional{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-}
 
-.unprofessional__heading{
+  
+  .thought {
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin:20px;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  .thought:before,
+  .thought:after {
+    content:"";
+    background-color:#fff;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thought:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #fff;
+  }
+  .thought:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #fff,
+               -28px -6px 0 -2px #fff,
+               -24px 17px 0 -6px #fff,
+               -5px 25px 0 -10px #fff;
     
-    width: 300px;
-    background-color: white;
-    border: 2px solid white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    
-}
-.unprofessional__heading h3{
-    border: 2px solid black;
-    color: black;
-    
-}
-
-.flex__hobby__container{
-    padding:150px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex__hobby h3{
-    text-align: center;
-}
-
-.hobby__pics{
-    width: 100px ;
-    height: 100px;
-    border-radius: 4em;
-}
+  }
