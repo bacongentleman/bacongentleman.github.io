@@ -4,8 +4,12 @@
 }
 
 body{
-background-color: #353535;
-color: white;
+background-color: #fae1dd;
+color: black;
+}
+
+.firstContainer{
+
 }
 
 .intro{
@@ -31,42 +35,7 @@ color: white;
 
 
 
-.flex_skills{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 30px;
-    
-    width: 100%;
-    height: auto;
-    
-}
 
-.skills{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 10px;
-    justify-content: space-evenly;
-    
-}
-
-.skills div{
-    padding: 0 10px;
-    text-align: center;
-}
-
-.skills span{
-    color: crimson;
-}
-
-
-
-
- .title {
- text-align: left;
- padding: 15px 0 5px 10px;
-}
 
 
 
@@ -88,8 +57,23 @@ margin-bottom: 0;
 .profile_pic  img{
 
 border-radius: 50%;
-width: 150px;
+width: 200px;
 height: auto;
+}
+
+.titleLocation{
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 40pt;
+    font-weight: lighter;
+    letter-spacing: 0.25em;
+    color: black;
+   
+    padding-bottom: 300px;
+    
 }
 
 
@@ -131,7 +115,7 @@ height: auto;
     padding: 3px 6px;
     border-radius: 1.05em;
     text-decoration: none;
-    color:white;
+    color:rgb(116, 93, 93);
     font-size: 12pt;
     transition: all ease-in 0.15s;
 }
@@ -159,35 +143,15 @@ color: lightblue;
 
 
 
-.dropdown{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 90px;
-    padding-top: 60px;
-    font-family:'Roboto', sans-serif; 
-    font-weight: 600;
-    
-}
 
-.dropdown select{
-    font-family: sans-serif ;
-    font-weight: 600;
-}
-
-#dropdownMenuButton{
-    background-color: white;
-    color: black;
-    font-weight: 700;
-}
 
 
 .work_exp_heading{
-    border-bottom: 1px solid black;
     text-align: center;
     font-family:'Open Sans Condensed', sans-serif;
     font-weight: 500;
     font-size: 22pt;
-   padding-top: 60px ;
+   
     letter-spacing: 0.15em;
 
 }
@@ -210,25 +174,20 @@ color: lightblue;
 }
 
 
-#work_exp_disappear{
-    transition: all .6s;
-    
-}
+
 
 .workExp{
-
+background-color: #e8e8e4;
 display: flex;
 justify-content: space-evenly;
-width: 100%;
+margin: 20px 4%;
 text-decoration: none;
 font-family:'Open Sans Condensed', sans-serif;
 font-weight: 550;
 font-size: 12pt;
+border-radius: 20px;
 }
 
-.workExp h3{
-
-}
 
 .job_1{
 
@@ -241,55 +200,16 @@ margin: 25px;
 
 
 
-iframe{
-    width: 300px;
-    height: auto;
-
-}
 
 
 
-
-/*
-below this is for unprofessional.html
-*/
-
-.back__home{
-    width: 100%;
-    height: 38px;
-    background-color:#fff1e6;
-    justify-content:flex-start;
-    align-items:flex-start;
-    padding: 20px 10px;
-    
-}
-
-.back__home  a{
-   
-    font-family: 'font-family: 'Roboto', sans-serif;';
-    box-shadow: 1px 1px 2px 1px gray ;
-    
-    padding: 3px 6px;
-    border: 2px solid white;
-    border-radius: 1.05em;
-    text-decoration: none;
-    color:black;
-    background-color: white;
-    transition: all ease-in 0.15s;
-}
-
-.back__home a:hover{
-    box-shadow: 1px 1px 2px 1px #e63946 ;
-    background-color: rgb(255, 255, 230);
-    color: black;
-}
 
 
   
   .thought {
     display:flex;
-    background-color:#fff;
-    padding:20px;
+    background-color:white;
+    padding:30px;
     border-radius:30px;
     min-width:40px;
     max-width:220px;
@@ -299,6 +219,7 @@ below this is for unprofessional.html
     align-items:center;
     justify-content:center;
     text-align:center;
+    font-family: 'quicksand', serif;
   }
   .thought:before,
   .thought:after {
