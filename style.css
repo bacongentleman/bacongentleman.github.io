@@ -12,7 +12,7 @@ color: black;
 
 .firstSection{
     background-color: #52b788;
-    
+    height: 100%;
 }
 
 
@@ -173,7 +173,8 @@ height: auto;
   
   .box {
     width: 160px;
-    
+    height: auto;
+    text-align: center;
     margin: 10px;
     background: #007AFF;
     padding: 20px;
