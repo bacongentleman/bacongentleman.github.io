@@ -165,7 +165,22 @@ height: auto;
 
 
   
+.videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+    
+    margin: 0 40px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
 
+.videos iframe{
+    padding: 10px 0;
+    background-color: #52b788;
+}
 
 
 
@@ -315,3 +330,15 @@ height: auto;
 	background: #109177;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
