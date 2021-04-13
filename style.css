@@ -81,7 +81,7 @@ height: auto;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     font-size: 20pt;
     font-weight:100;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.20em;
     color: white;
    
     padding-bottom: 290px;
@@ -97,7 +97,7 @@ height: auto;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
         font-size: 20pt;
         font-weight:100;
-        letter-spacing: 0.15em;
+        letter-spacing: 0.20em;
         
        
         padding-bottom: 200px;
@@ -119,6 +119,7 @@ height: auto;
 
 #jobTitle2 {
     font-size: 33pt;
+    letter-spacing: 0.10em;
 }
 
 @media (max-width: 840px){
